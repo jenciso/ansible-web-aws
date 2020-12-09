@@ -2,4 +2,4 @@
   remote_user: centos
   hosts: all
   roles:
-    - docker-ce
+    - web-app

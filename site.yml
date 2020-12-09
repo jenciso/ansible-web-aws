@@ -1,0 +1,5 @@
+- name: server
+  remote_user: centos
+  hosts: all
+  roles:
+    - docker-ce

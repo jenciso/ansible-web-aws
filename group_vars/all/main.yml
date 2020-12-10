@@ -1,0 +1,4 @@
+---
+web_app_container_image: registry.gitlab.com/devops-tt/demo-socrates
+web_app_docker_user: gitlab-registry
+web_app_docker_pass: yaUsxtD5bTHDt4z5YVXB

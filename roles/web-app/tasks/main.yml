@@ -1,0 +1,14 @@
+---
+- name: web-app | docker login
+  shell: |
+    docker login -u {{ web_app_docker_user }} -p {{ web_app_docker_pass }} registry.gitlab.com
+
+
+- name: web-app | docker pull
+  shell: |
+    docker pull {{ web_app_container_image }}
+
+
+- name: web-app | docker logout
+  shell: |
+    docker logout registry.gitlab.com
